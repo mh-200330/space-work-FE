@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <form action="ceva.html" target="_blank" method="GET">
-    <p type="name">Your name:</p>
+    <label for="input_nume" type="name">Your name:</label>
+    <input id="input_nume" type="text" />
+    <br>
+    <label type="email">Your email:</label>
     <input type="text" />
-    <p type="email">Your email:</p>
-    <input type="text" />
-    <p> Sosuri: </p>
+    <br>
+    <label> Sosuri: </label>
     <input type="radio" name="sosuri"/> Supreme <br>
     <input type="radio"name="sosuri"/> Vegetarian <br>
     <input type="radio" name="sosuri"/> Hawaian <br>
-
-    <p>Size: </p>
+    <br>    
+    <label>Size: </label>
     <input type="radio" name="size"/> Medium <br>
     <input type="radio"name="size"/> XL <br>
-
+    <br>
     <select>
         <option>Tomato</option>
         <option selected >Pesto</option>
     </select>
 
-    <p> Extras: </p>
+    <label> Extras: </label>
     <input type="checkbox" /> Cheese <br>
     <input type="checkbox" /> Onions <br>
     <input type="checkbox" /> Olives <br>
-    <p>Detalii comanda:</p>
+    <br>
+    <label>Detalii comanda:</label>
     <textarea>
         Detalii comanda
     </textarea>
-
+    <br>    
     <button type="submit"> Submit </button>
 
 </form>
