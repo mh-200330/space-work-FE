@@ -1,0 +1,33 @@
+p{
+    color: red;
+    font-size: 16 px; 
+}
+.content p {
+    color: chocolate;
+    font-size: 16px;
+}
+.footer p {
+    font-size: 10px;
+
+}
+.footer :paused {
+    background-color: antiquewhite;
+}
+.footer div {
+    background-color: aquamarines;
+}
+
+.header {
+    /* border-width: 2px;
+    border-style: ridge;
+    border-color: blueviolet; */
+    /* border: 1 px solid mediumslateblue; */
+
+    border-top-width: 4px;
+    border-bottom-width: 9px;
+    border-left-width: 6px;
+    border-right-width: 2px;
+    border-color: crimson;
+    border-style: solid;
+    border-bottom-style: groove ;
+} 
