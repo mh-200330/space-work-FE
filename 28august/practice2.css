@@ -1,0 +1,28 @@
+.footer p {
+    font-size: 10px;
+    color: darkblue;
+}
+
+.footer div {
+    background-color: azure;
+}
+p{
+    color: cornflowerblue;
+}
+
+.header,
+.footer,
+.content{
+    border: 2px solid blueviolet
+}
+
+.blackBorder {
+    border-color: deepskyblue;
+}
+
+.grayBorder {
+    border-color: black;
+}
+input {
+    border-color: lightseagreen;
+}
